@@ -1,9 +1,9 @@
 {
   "project": "Project Y Art Handbook",
-  "document_version": "V1.2 · Spine 制作版",
-  "packaged_at": "2026-11-11T20:17:25+08:00",
+  "document_version": "V1.2",
+  "packaged_at": "2026-11-11T20:23:12+08:00",
   "entrypoint": "index.html",
-  "sha256": "de681b1b950ebd3a8c4c1dfafcab01672408da8637efa81b4e896924de02f80a",
+  "sha256": "97ff9f4700e794e8ffefcc5539b7c25e4b884cf78bdaafaabdada123c0c1dcd4",
   "files": [
     "index.html",
     "README.md",
