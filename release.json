@@ -1,0 +1,16 @@
+{
+  "project": "Project Y Art Handbook",
+  "document_version": "V1.1 · 结构整理版",
+  "packaged_at": "2026-11-11T11:01:46+08:00",
+  "entrypoint": "index.html",
+  "sha256": "fb321d373b1a5221c3832383970dc6947371ced3c3661c39b1137931a9186db5",
+  "files": [
+    "index.html",
+    "README.md",
+    ".gitignore",
+    ".nojekyll",
+    "package.cmd",
+    "package_release.py",
+    "release.json"
+  ]
+}
