@@ -1,9 +1,9 @@
 {
   "project": "Project Y Art Handbook",
   "document_version": "V1.2",
-  "packaged_at": "2026-11-11T20:23:12+08:00",
+  "packaged_at": "2026-11-11T20:46:32+08:00",
   "entrypoint": "index.html",
-  "sha256": "97ff9f4700e794e8ffefcc5539b7c25e4b884cf78bdaafaabdada123c0c1dcd4",
+  "sha256": "18dcde00eaf885761be4b5cdc899b55f16f3c6759cee382dc391e76e7d0a26ae",
   "files": [
     "index.html",
     "README.md",
