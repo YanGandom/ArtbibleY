@@ -40,11 +40,11 @@ mark{background:#ffeda2}mark.current{background:#f6d367}
 .pending{color:#b65316!important;font-weight:500} @media print{.pending{color:#b65316!important;-webkit-print-color-adjust:exact;print-color-adjust:exact}}
 </style></head><body>
 <aside class="sidebar"><a class="brand" href="#content" style="text-decoration:none">Project Y<small>美术制作手册 / ART HANDBOOK</small></a><div class="nav-label">文档目录</div><nav id="nav" aria-label="章节导航"></nav><div class="sidefoot">Project Y · 美术部门<br>制作流程与管线规范</div></aside>
-<div class="workspace"><div class="toolbar"><div class="search"><input id="search" type="search" placeholder="搜索正文，例如：UI 动画" aria-label="搜索正文"><button id="prev" aria-label="上一个匹配">↑</button><button id="next" aria-label="下一个匹配">↓</button><span id="count" role="status"></span></div><button id="edit">编辑正文</button><button id="print">打印 / PDF</button><button class="primary" id="download">下载 HTML</button><div id="status" role="status"></div></div>
-<main><article id="content"><header class="cover"><div class="eyebrow">PROJECT Y / ART PRODUCTION HANDBOOK</div><h1>Project Y<br>美术制作手册</h1><p>欧美卡通 3D 休闲游戏 / Merge / 装修项目</p><p>文档版本：V1.1 · 结构整理版</p><p>适用范围：Project Y 美术制作、跨工种交接、资源集成与验收。</p><p>使用方式：先查项目配置与职责，再按所属工种制作；交付时执行通用要求与专项检查。</p><p class="pending">橙色文字表示待确认、待补充或待制定内容；本次整理版待项目负责人审核。</p></header><section class="chapter"><h2 id="project">01. 项目概况与配置</h2><h3 id="project-scope">1.1 项目定位</h3><ul>
+<div class="workspace"><div class="toolbar"><div class="search"><input id="search" type="search" placeholder="搜索正文，例如：UI 动画" aria-label="搜索正文"><button id="prev" aria-label="上一个匹配">↑</button><button id="next" aria-label="下一个匹配">↓</button><span id="count" role="status"></span></div><div id="status" role="status"></div></div>
+<main><article id="content"><header class="cover"><div class="eyebrow">PROJECT Y / ART PRODUCTION HANDBOOK</div><h1>Project Y<br>美术制作手册</h1><p>欧美卡通 3D 休闲游戏 / Merge / 装修项目</p><p>文档版本：V1.2 · Spine 制作版</p><p>适用范围：Project Y 美术制作、跨工种交接、资源集成与验收。</p><p>使用方式：先查项目配置与职责，再按所属工种制作；交付时执行通用要求与专项检查。</p><p class="pending">橙色文字表示待确认、待补充或待制定内容；本次整理版待项目负责人审核。</p></header><section class="chapter"><h2 id="project">01. 项目概况与配置</h2><h3 id="project-scope">1.1 项目定位</h3><ul>
 <li>项目类型：欧美卡通 3D 休闲游戏，覆盖 Merge、装修、剧情与活动内容等常见玩法。</li>
 <li>运行环境：Unity；目标平台与设备档位由项目立项文件确认。</li>
-<li>团队模式：中大型团队，专业模块分工，部分模块可并行制作或通过外包扩容。</li>
+<li>团队模式：中小型团队，专业模块分工，部分模块可并行制作或通过外包扩容。</li>
 <li>工作目标：建立从概念设计到 DCC 制作、Unity 集成、验收发布的可重复生产流程。</li>
 </ul><h3 id="principles">1.2 生产原则</h3><div class="table-wrap" tabindex="0"><table>
 <thead><tr><th scope="col">原则</th><th scope="col">执行定义</th></tr></thead>
@@ -53,7 +53,7 @@ mark{background:#ffeda2}mark.current{background:#f6d367}
 <tr><td>引擎结果为准</td><td>DCC 视口和设计工具中的效果只是制作参考；最终结果必须在 Unity 的目标相机、灯光和平台设置下验证。</td></tr>
 <tr><td>交付可追溯</td><td>每项资产均有 ID、负责人、源文件、导出资源、审核记录、版本状态和依赖关系。</td></tr>
 <tr><td>自动化优先</td><td>命名、格式、尺寸、导入设置、引用丢失等可明确判断的问题优先通过脚本检查；艺术判断仍保留人工评审。</td></tr>
-</tbody></table></div><h3 id="project-config">1.3 项目配置与待确认事项</h3><p>以下配置作为全手册的统一引用。橙色文字表示尚未确认、尚未制定或等待补充，不能直接视为已批准的执行标准。</p><div class="table-wrap" tabindex="0"><table><thead><tr><th scope="col">配置项</th><th scope="col">当前状态 / 规则</th><th scope="col">建议维护岗位</th></tr></thead><tbody><tr><td>引擎与渲染</td><td>Unity；<span class="pending">待确认：具体版本、渲染管线与升级策略</span></td><td>TA / 客户端</td></tr><tr><td>目标平台与设备</td><td><span class="pending">待确认：目标平台、最低设备、分辨率与长宽比覆盖范围</span></td><td>项目负责人 / 客户端</td></tr><tr><td>镜头与预览场景</td><td><span class="pending">待制定：相机参数、灯光模板、比例尺与标准预览场景链接</span></td><td>主美 / TA</td></tr><tr><td>DCC 与插件</td><td><span class="pending">待确认：建模、绘画、动画软件及插件的批准版本</span></td><td>模块负责人 / TA</td></tr><tr><td>Spine / Runtime</td><td><span class="pending">待确认：Spine 编辑器与 Unity Runtime 配套版本、授权及导出配置；Rive 是否启用</span></td><td>动画负责人 / TA / 客户端</td></tr><tr><td>资源库与协作工具</td><td><span class="pending">待补充：源文件库、Unity 工程、版本控制、任务看板及正式交付位置</span></td><td>管线负责人</td></tr><tr><td>性能与资产预算</td><td><span class="pending">待制定：目标帧率、内存、加载目标及角色、场景、UI、VFX 分级预算；通过垂直切片实测确认</span></td><td>TA / 各模块负责人</td></tr><tr><td>主责与审批名单</td><td><span class="pending">待确认：绑定 / 蒙皮、Merge 设计与出图、Unity 集成的主责岗位；填入各模块负责人和最终审批人</span></td><td>美术负责人</td></tr><tr><td>评审与问题响应</td><td><span class="pending">待制定：评审频率、缺陷响应时限、延期批准与发布例外审批名单</span></td><td>美术负责人 / 项目负责人</td></tr></tbody></table></div><p>预算按资产等级和目标设备制定，先完成代表性场景测试，再确定面数、贴图、材质数量等限制。</p></section><section class="chapter">
+</tbody></table></div><h3 id="project-config">1.3 项目配置与待确认事项</h3><p>以下配置作为全手册的统一引用。橙色文字表示尚未确认、尚未制定或等待补充，不能直接视为已批准的执行标准。</p><div class="table-wrap" tabindex="0"><table><thead><tr><th scope="col">配置项</th><th scope="col">当前状态 / 规则</th><th scope="col">建议维护岗位</th></tr></thead><tbody><tr><td>引擎与渲染</td><td>Unity；<span class="pending">待确认：具体版本、渲染管线与升级策略</span></td><td>TA / 客户端</td></tr><tr><td>目标平台与设备</td><td><span class="pending">待确认：目标平台、最低设备、分辨率与长宽比覆盖范围</span></td><td>项目负责人 / 客户端</td></tr><tr><td>镜头与预览场景</td><td><span class="pending">待制定：相机参数、灯光模板、比例尺与标准预览场景链接</span></td><td>主美 / TA</td></tr><tr><td>DCC 与插件</td><td><span class="pending">待确认：建模、绘画、动画软件及插件的批准版本</span></td><td>模块负责人 / TA</td></tr><tr><td>Spine / Runtime</td><td><span class="pending">待确认：Spine 编辑器与 Unity Runtime 配套版本、授权及导出配置</span></td><td>动画负责人 / TA / 客户端</td></tr><tr><td>资源库与协作工具</td><td><span class="pending">待补充：源文件库、Unity 工程、版本控制、任务看板及正式交付位置</span></td><td>管线负责人</td></tr><tr><td>性能与资产预算</td><td><span class="pending">待制定：目标帧率、内存、加载目标及角色、场景、UI、VFX 分级预算；通过垂直切片实测确认</span></td><td>TA / 各模块负责人</td></tr><tr><td>主责与审批名单</td><td><span class="pending">待确认：绑定 / 蒙皮、Merge 设计与出图、Unity 集成的主责岗位；填入各模块负责人和最终审批人</span></td><td>美术负责人</td></tr><tr><td>评审与问题响应</td><td><span class="pending">待制定：评审频率、缺陷响应时限、延期批准与发布例外审批名单</span></td><td>美术负责人 / 项目负责人</td></tr></tbody></table></div><p>预算按资产等级和目标设备制定，先完成代表性场景测试，再确定面数、贴图、材质数量等限制。</p></section><section class="chapter">
 <h2 id="artbible">02. ArtBible · 美术风格指南</h2>
 <p class="pending">本章用于统一 Project Y 的视觉方向，作为角色、场景、UI、动画与特效制作的风格参考。以下为初步占位内容，后续补充参考图、色板、样板资产和具体规范，并经主美评审确认。</p>
 <h3 id="artbible-direction">2.1 视觉定位与关键词</h3>
@@ -83,7 +83,7 @@ mark{background:#ffeda2}mark.current{background:#f6d367}
 <tr><td>角色 3D</td><td>角色模型、UV、材质、贴图、换装部件及绑定前置检查。</td><td>模型、材质、贴图、角色资源包、绑定交接说明。</td></tr>
 <tr><td>UI/UX</td><td>界面结构、视觉设计、组件规范、交互状态与设计交付。</td><td>Figma 文件、界面稿、组件库、状态说明、标注和导出图形。</td></tr>
 <tr><td>3D 动画</td><td>3D 角色与物体动画、动作表演、动画片段和状态切换设计。</td><td>动画源文件、动画片段、预览视频、状态与事件说明。</td></tr>
-<tr><td>2D 动画与 UI 动画</td><td>负责角色 Spine 动画与界面动画；角色按 Spine 管线制作，常规 UI 动画优先使用 Unity，Rive 按项目批准方案启用。</td><td>Animation Clip、Animator Controller、Timeline 或 Spine/Rive 工程与运行时资源。</td></tr>
+<tr><td>2D 动画与 UI 动画</td><td>负责角色 Spine 动画与界面动画；角色按 Spine 管线制作，常规 UI 动画优先使用 Unity。</td><td>Animation Clip、Animator Controller、Timeline 或 Spine 工程与运行时资源。</td></tr>
 <tr><td>特效 VFX</td><td>游戏空间特效与 UI 特效，包括粒子、Shader、奖励反馈和合成特效。</td><td>特效 Prefab、贴图、材质、Shader 配置、时序和性能记录。</td></tr>
 <tr><td>技术美术 TA</td><td>资源管线、工具、材质/Shader、自动化检查、性能诊断与技术规范。</td><td>工具脚本、导入预设、材质模板、检查报告、性能基准和技术文档。</td></tr>
 </tbody></table></div><h3 id="team-roles">3.2 管理与协作角色</h3><ul>
@@ -239,10 +239,10 @@ mark{background:#ffeda2}mark.current{background:#f6d367}
 <li>□ 切换、打断、Root Motion 和动画事件行为符合需求。</li>
 <li>□ 标准动作中没有严重穿插或绑定变形。</li>
 <li>□ 动画片段、状态名称、时长、循环方式和依赖资源可追溯。</li>
-</ul><h3 id="s38">5.7 2D 动画与 UI 动画</h3><p>负责角色 Spine 动画与界面动态表现。角色动画和 UI 动画使用各自制作路径；Rive 仅在项目批准后使用。</p><p>常规 UI 动画优先采用 Unity Animation / Animator，复杂时序按需使用 Timeline。<span class="pending">Rive 是否采用及配套版本待确认。</span></p><h4>角色 Spine 制作路径</h4><div class="table-wrap" tabindex="0"><table><thead><tr><th scope="col">步骤</th><th scope="col">交付与检查</th></tr></thead><tbody><tr><td>需求与拆件确认</td><td>与原画确认动作清单、视角、尺寸、换装与拆件方案；超出范围的动作先评估补画。</td></tr><tr><td>素材接收</td><td>检查分层、命名、透明边缘、关节覆盖与补画；缺图退回原画修正。</td></tr><tr><td>绑定与动作样板</td><td>制作骨骼、网格、权重、约束和插槽层级，用代表性极限姿势验证后再扩展动作。</td></tr><tr><td>动画制作与导出</td><td>完成节奏、循环、切换与事件；按批准版本导出工程、动画数据、图集与说明。</td></tr><tr><td>Unity 验证</td><td>与集成主责核对 Runtime、皮肤、动画调用、显示与性能，修复后提交验收。</td></tr></tbody></table></div><h4>Unity UI 动画制作路径</h4>
+</ul><h3 id="s38">5.7 2D 动画与 UI 动画</h3><p>负责角色 Spine 动画与界面动态表现。角色动画和 UI 动画使用各自制作路径。</p><p>常规 UI 动画优先采用 Unity Animation / Animator，复杂时序按需使用 Timeline。</p><h4>角色 Spine 制作路径</h4><div class="table-wrap" tabindex="0"><table><thead><tr><th scope="col">步骤</th><th scope="col">交付与检查</th></tr></thead><tbody><tr><td>需求与拆件确认</td><td>与原画确认动作清单、视角、尺寸、换装与拆件方案；超出范围的动作先评估补画。</td></tr><tr><td>素材接收</td><td>检查分层、命名、透明边缘、关节覆盖与补画；缺图退回原画修正。</td></tr><tr><td>绑定与动作样板</td><td>制作骨骼、网格、权重、约束和插槽层级，用代表性极限姿势验证后再扩展动作。</td></tr><tr><td>动画制作与导出</td><td>完成节奏、循环、切换与事件；按批准版本导出工程、动画数据、图集与说明。</td></tr><tr><td>Unity 验证</td><td>与集成主责核对 Runtime、皮肤、动画调用、显示与性能，修复后提交验收。</td></tr></tbody></table></div><h4>Unity UI 动画制作路径</h4>
 <div class="table-wrap" tabindex="0"><table>
 <thead><tr><th scope="col">阶段</th><th scope="col">执行内容</th><th scope="col">主要输出 / 检查点</th></tr></thead>
-<tbody><tr><td>需求与路径选择</td><td>明确触发条件、目的、状态和时长；优先判断 Unity 动画编辑器是否足够，特殊需求才选 Spine/Rive。</td><td>动画需求单、静态状态稿、工具选择记录。</td></tr>
+<tbody><tr><td>需求与路径选择</td><td>明确触发条件、目的、状态和时长；优先判断 Unity 动画编辑器是否足够，特殊需求才选 Spine。</td><td>动画需求单、静态状态稿、工具选择记录。</td></tr>
 <tr><td>层级与资源准备</td><td>确认 UI 层级、锚点、Pivot、可动画属性、遮罩和对象引用。</td><td>可动画对象清单、层级检查结果。</td></tr>
 <tr><td>制作与节奏调试</td><td>制作关键帧、曲线、循环与状态转换；校准速度、缓动、停顿和反馈强度。</td><td>Animation Clip / 工程文件与预览。</td></tr>
 <tr><td>状态与引擎验证</td><td>明确播放入口、参数、事件、重播和打断规则；在 Unity 中检查布局、播放顺序与重复触发。</td><td>Animator Controller / 状态说明、运行录像与问题单。</td></tr>
@@ -332,7 +332,7 @@ mark{background:#ffeda2}mark.current{background:#f6d367}
 <tr><td>角色动画 / 绑定</td><td>Maya / Blender / 3ds Max</td><td>用于骨骼、蒙皮、关键帧动画和复杂曲线工作；按项目现有技能与管线选择。</td><td>正式交付前确认 Rig、骨骼命名、片段、Root Motion、循环与动画事件约定。</td></tr>
 <tr><td>高模与材质</td><td>ZBrush / Substance 3D Painter / Designer</td><td>ZBrush 用于有必要的形体雕刻；Painter 用于模型表面材质绘制；Designer 用于程序化、可复用材质。</td><td>不是每件休闲游戏资产都需要高模或程序化材质；根据品质等级和预算选用。</td></tr>
 <tr><td>UI 动画</td><td>Unity Animation Window / Animation Clip / Animator；Timeline 按需</td><td>优先在 Unity 内制作控件状态、弹窗、位移、缩放、颜色、透明度和多元素时序。</td><td>动画以项目内实际运行时为准；清楚记录对象层级、参数、触发与打断逻辑。</td></tr>
-<tr><td>2D 骨骼 / 状态驱动动画</td><td>Spine / Rive（按需）</td><td>Spine 适合骨骼、网格变形和多动作 2D 角色；Rive 适合矢量动画与状态机驱动交互。</td><td>只有需求有实际收益时引入；先确认 Runtime、插件版本、授权、导入与目标平台兼容性。</td></tr>
+<tr><td>2D 骨骼动画</td><td>Spine</td><td>Spine 用于骨骼、网格变形和多动作 2D 角色动画。</td><td>只有需求有实际收益时引入；先确认 Runtime、插件版本、授权、导入与目标平台兼容性。</td></tr>
 <tr><td>实时特效</td><td>Unity Particle System / VFX Graph / Shader Graph</td><td>按粒子规模、目标平台、材质表现和可维护性选择；After Effects 可用于节奏预演或参考。</td><td>After Effects 预演不等于游戏运行时实现；实时特效必须在 Unity 中完成性能与层级验证。</td></tr>
 </tbody></table></div><h3 id="resource-library">7.2 源文件与工程管理</h3><ul>
 <li>美术源文件库与 Unity 运行时工程可以分开管理，但必须通过稳定的资源 ID 和交付流程关联。</li>
@@ -347,7 +347,7 @@ mark{background:#ffeda2}mark.current{background:#f6d367}
 ├─ 04_MergeItems/      物品链、单体物品、图标与映射表
 ├─ 05_UI/              设计资产、图标、界面图形源文件
 ├─ 06_Animation3D/     3D 动画工程、片段、预览
-├─ 07_Animation2D_UI/     Unity 动画资源、Spine/Rive 工程与导出
+├─ 07_Animation2D_UI/     Unity 动画资源、Spine 工程与导出
 ├─ 08_VFX/             游戏特效、UI 特效、贴图、材质与 Prefab
 ├─ 09_TA/              工具、导入预设、Shader、模板与脚本
 ├─ 10_Reference/       竞品、参考图、录屏、风格板
@@ -371,7 +371,7 @@ mark{background:#ffeda2}mark.current{background:#f6d367}
 <tr><td>UI Sprite</td><td>Sprite Mode、Pivot、九宫格、边缘、透明区域、图集打包和压缩策略。</td></tr>
 <tr><td>动画</td><td>片段名称、循环、Root Motion、事件、状态机参数、切换与打断规则。</td></tr>
 <tr><td>Prefab</td><td>层级、组件、引用、材质、依赖、对象激活状态、池化 / 回收要求。</td></tr>
-<tr><td>Spine/Rive</td><td>版本 / Runtime 兼容、导出格式、图集、状态机输入、插件与授权约束。</td></tr>
+<tr><td>Spine</td><td>版本 / Runtime 兼容、导出格式、图集、状态机输入、插件与授权约束。</td></tr>
 <tr><td>VFX</td><td>生命周期、粒子数量、混合模式、透明层级、贴图与材质依赖、降级方案。</td></tr>
 </tbody></table></div><p><span class="pending">待制定：各类型 Import Preset、导出模板、分级预算表及自动检查入口。当前表格是覆盖范围，不是完整参数配置。</span></p><h3 id="changes">7.5 资源变更控制</h3><ul>
 <li>修改公共材质、导入预设、Shader、UI 公共组件或命名规则前，必须评估影响范围。</li>
@@ -391,7 +391,7 @@ mark{background:#ffeda2}mark.current{background:#f6d367}
 <tr><td>重复制作率 / 复用率</td><td>识别目录、资产库和模块化设计的改善空间。</td><td>复用要同时看维护成本与效果。</td></tr>
 <tr><td>集成缺陷数量 / 引擎返工率</td><td>衡量导入规范和前置技术验证效果。</td><td>按问题类型追踪根因。</td></tr>
 <tr><td>自动检查覆盖率 / 误报漏报率</td><td>衡量工具能否真正降低人工检查负担。</td><td>自动检查需要人工抽检与维护。</td></tr>
-</tbody></table></div><p>初期优先跟踪按期交付、首次评审通过、返修工时与集成缺陷，其他指标在有稳定记录后启用。<span class="pending">待制定：统计周期、计算口径与数据维护人。</span></p><h3 id="maintenance">8.4 手册维护与修订</h3><p>手册版本与资源版本分别管理。正式修订需记录日期、内容、维护人与审核状态；橙色待定项确认后填入结果及依据，再移除橙色标记。</p><p><span class="pending">待确认：手册维护人与正式发布审核人。</span></p><div class="table-wrap" tabindex="0"><table><thead><tr><th scope="col">版本</th><th scope="col">日期</th><th scope="col">主要修订</th><th scope="col">状态</th></tr></thead><tbody><tr><td>V1.1</td><td>2026-10-28</td><td>重整章节；统一通用交付与验收；补齐 2D / UI 动画路径；集中项目配置；橙色标识待定项。</td><td><span class="pending">待项目负责人审核</span></td></tr><tr><td>V1.0</td><td>—</td><td>原始流程与管线规范及 Project Y 初版整理。</td><td>历史版本已保留</td></tr></tbody></table></div></section><section class="chapter"><h2 id="appendix">附录 · 模板与参考</h2><h3 id="template-task">A.1 资产任务单</h3><div class="table-wrap" tabindex="0"><table>
+</tbody></table></div><p>初期优先跟踪按期交付、首次评审通过、返修工时与集成缺陷，其他指标在有稳定记录后启用。<span class="pending">待制定：统计周期、计算口径与数据维护人。</span></p><h3 id="maintenance">8.4 手册维护与修订</h3><p>手册版本与资源版本分别管理。正式修订需记录日期、内容、维护人与审核状态；橙色待定项确认后填入结果及依据，再移除橙色标记。</p><p><span class="pending">待确认：手册维护人与正式发布审核人。</span></p><div class="table-wrap" tabindex="0"><table><thead><tr><th scope="col">版本</th><th scope="col">日期</th><th scope="col">主要修订</th><th scope="col">状态</th></tr></thead><tbody><tr><td>V1.2</td><td>2026-11-11</td><td>团队模式调整为中小型团队；精简工具、配置与参考，2D 角色动画统一使用 Spine，保留 Unity UI 动画流程。</td><td><span class="pending">待项目负责人审核</span></td></tr><tr><td>V1.1</td><td>2026-10-28</td><td>重整章节；统一通用交付与验收；补齐 2D / UI 动画路径；集中项目配置；橙色标识待定项。</td><td><span class="pending">待项目负责人审核</span></td></tr><tr><td>V1.0</td><td>—</td><td>原始流程与管线规范及 Project Y 初版整理。</td><td>历史版本已保留</td></tr></tbody></table></div></section><section class="chapter"><h2 id="appendix">附录 · 模板与参考</h2><h3 id="template-task">A.1 资产任务单</h3><div class="table-wrap" tabindex="0"><table>
 <thead><tr><th scope="col">字段</th><th scope="col">内容要求</th></tr></thead>
 <tbody><tr><td>资产 ID / 资产类型</td><td>对应唯一 ID、模块、资产类别与品质等级。</td></tr>
 <tr><td>制作需求</td><td>简明说明用途、目标视觉、数量、状态和不可变更内容。</td></tr>
@@ -424,9 +424,9 @@ mark{background:#ffeda2}mark.current{background:#f6d367}
 <li>Unity 贴图导入：<a href="https://docs.unity3d.com/Manual/class-TextureImporter.html" target="_blank" rel="noopener noreferrer">https://docs.unity3d.com/Manual/class-TextureImporter.html</a> — 贴图类型、压缩与平台设置参考。</li>
 <li>Unity Rendering Profiler：<a href="https://docs.unity3d.com/Manual/ProfilerRendering.html" target="_blank" rel="noopener noreferrer">https://docs.unity3d.com/Manual/ProfilerRendering.html</a> — 采集 Batches、SetPass Calls、Triangles 等渲染数据。</li>
 <li>Spine-Unity Runtime 文档：<a href="https://en.esotericsoftware.com/spine-unity" target="_blank" rel="noopener noreferrer">https://en.esotericsoftware.com/spine-unity</a> — Spine 资源导入、运行时集成与相关依赖。</li>
-<li>Rive 官网与交互动画能力：<a href="https://rive.app/" target="_blank" rel="noopener noreferrer">https://rive.app/</a> — 评估 Rive 状态机与运行时动画方案时参考；应另行验证 Unity Runtime 兼容性。</li>
+
 </ul>
-<p class="note">上述链接用于技术核对，不替代项目内部验证。特别是 UI 动画技术路径、Spine/Rive Runtime、插件授权与 Unity 版本兼容性，都应在正式采用前由 TA / 客户端完成实机或目标工程测试。</p></section></article><footer>Project Y 美术制作手册 · 团队工作手册</footer></main></div><script>
+<p class="note">上述链接用于技术核对，不替代项目内部验证。特别是 UI 动画技术路径、Spine Runtime、插件授权与 Unity 版本兼容性，都应在正式采用前由 TA / 客户端完成实机或目标工程测试。</p></section></article><footer>Project Y 美术制作手册 · 团队工作手册</footer></main></div><script>
 const content=document.querySelector('#content'),nav=document.querySelector('#nav'),search=document.querySelector('#search'),count=document.querySelector('#count'),status=document.querySelector('#status');
 let editing=false,dirty=false,hits=[],current=-1;
 function navigation(){
@@ -455,12 +455,11 @@ function find(){clearMarks();const q=search.value.trim().toLowerCase();if(!q)ret
 function move(step){if(!hits.length)return;if(current>=0)hits[current].classList.remove('current');current=(current+step+hits.length)%hits.length;hits[current].classList.add('current');hits[current].scrollIntoView({block:'center',behavior:'auto'});count.textContent=(current+1)+' / '+hits.length;}
 search.addEventListener('input',find);search.addEventListener('keydown',e=>{if(e.key==='Enter'){e.preventDefault();move(e.shiftKey?-1:1);}if(e.key==='Escape'){search.value='';clearMarks();}});
 document.querySelector('#prev').onclick=()=>move(-1);document.querySelector('#next').onclick=()=>move(1);
-document.querySelector('#edit').onclick=()=>{clearMarks();search.value='';editing=!editing;content.contentEditable=String(editing);document.body.classList.toggle('editing',editing);document.querySelector('#edit').textContent=editing?'结束编辑':'编辑正文';search.disabled=editing;status.textContent=editing?'可直接修改正文与表格文字。修改后请下载 HTML 保存；关闭页面不会自动保存。':dirty?'有未保存修改，请下载 HTML 保存。':'';if(!editing)navigation();};
+
 content.addEventListener('input',()=>{dirty=true;document.body.classList.add('dirty');status.textContent='有未保存修改，请下载 HTML 保存。';});
 content.addEventListener('paste',e=>{if(!editing)return;e.preventDefault();document.execCommand('insertText',false,e.clipboardData.getData('text/plain'));});
 content.addEventListener('click',e=>{if(editing&&e.target.closest('a'))e.preventDefault();});
 window.addEventListener('beforeunload',e=>{if(dirty){e.preventDefault();e.returnValue='';}});
-document.querySelector('#download').onclick=()=>{clearMarks();navigation();const copy=document.documentElement.cloneNode(true);copy.querySelector('body').classList.remove('editing','dirty');copy.querySelector('#content').removeAttribute('contenteditable');copy.querySelector('#edit').textContent='编辑正文';copy.querySelector('#search').removeAttribute('disabled');copy.querySelector('#search').setAttribute('value','');copy.querySelector('#count').textContent='';copy.querySelector('#status').textContent='';const blob=new Blob(['<!DOCTYPE html>\n'+copy.outerHTML],{type:'text/html;charset=utf-8'});const url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download='Project Y 美术制作手册_'+new Date().toISOString().slice(0,10)+'.html';a.click();setTimeout(()=>URL.revokeObjectURL(url),10000);status.textContent='已发起下载，请确认文件已保存。';};
-document.querySelector('#print').onclick=()=>{clearMarks();window.print();};
+
 let ticking=false;window.addEventListener('scroll',()=>{if(ticking)return;ticking=true;requestAnimationFrame(()=>{let id='';content.querySelectorAll('h2,h3').forEach(h=>{if(h.getBoundingClientRect().top<160)id=h.id;});nav.querySelectorAll('a').forEach(a=>a.classList.toggle('active',a.hash==='#'+id));ticking=false;});},{passive:true});
 </script></body></html>
